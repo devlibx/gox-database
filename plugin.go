@@ -1,7 +1,7 @@
 package gox_database
 
 import (
-	"github.com/harishb2k/gox-base"
+	"github.com/devlibx/gox-base"
 	"github.com/pkg/errors"
 )
 
@@ -23,7 +23,7 @@ func RegisterDatabasePlugin(dbType string, plugin DatabasePlugin) {
 func GetOrCreate(databaseName string, config *Config, function gox.CrossFunction) (Db, error) {
 	if db, ok := databases[databaseName]; !ok {
 		if dbPlugin, ok := databasePlugins[config.Type]; !ok {
-			return nil, errors.New("failed to create db using plugin - make sure you imported '_ github.com/harishb2k/gox-mysql'")
+			return nil, errors.New("failed to create db using plugin - make sure you imported '_ github.com/devlibx/gox-mysql'")
 		} else {
 			if db, err := dbPlugin(config, function); err != nil {
 				return nil, errors.Wrap(err, "failed to create db using plugin")

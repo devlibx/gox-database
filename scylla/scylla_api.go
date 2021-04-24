@@ -3,8 +3,8 @@ package gox_scylla
 import (
 	"github.com/gocql/gocql"
 	_ "github.com/gocql/gocql"
-	gox "github.com/harishb2k/gox-base"
-	goxdb "github.com/harishb2k/gox-database"
+	gox "github.com/devlibx/gox-base"
+	goxdb "github.com/devlibx/gox-database"
 )
 
 type scyllaDb struct {

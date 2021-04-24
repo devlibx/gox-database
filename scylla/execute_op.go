@@ -4,9 +4,9 @@ import (
 	"context"
 	"github.com/gocql/gocql"
 	_ "github.com/gocql/gocql"
-	"github.com/harishb2k/gox-base"
-	"github.com/harishb2k/gox-base/metrics"
-	goxdb "github.com/harishb2k/gox-database"
+	"github.com/devlibx/gox-base"
+	"github.com/devlibx/gox-base/metrics"
+	goxdb "github.com/devlibx/gox-database"
 )
 
 type scyllaExecuteOp struct {

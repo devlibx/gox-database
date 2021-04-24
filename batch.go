@@ -2,7 +2,7 @@ package gox_database
 
 import (
 	"context"
-	"github.com/harishb2k/gox-base/metrics"
+	"github.com/devlibx/gox-base/metrics"
 )
 
 type Batch interface {

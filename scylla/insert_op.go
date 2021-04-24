@@ -3,8 +3,8 @@ package gox_scylla
 import (
 	"context"
 	"github.com/gocql/gocql"
-	"github.com/harishb2k/gox-base"
-	"github.com/harishb2k/gox-base/metrics"
+	"github.com/devlibx/gox-base"
+	"github.com/devlibx/gox-base/metrics"
 )
 
 type scyllaInsertOp struct {

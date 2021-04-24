@@ -4,10 +4,10 @@ import (
 	"context"
 	"errors"
 	"github.com/gocql/gocql"
-	"github.com/harishb2k/gox-base"
-	errors2 "github.com/harishb2k/gox-base/errors"
-	"github.com/harishb2k/gox-base/metrics"
-	goxdb "github.com/harishb2k/gox-database"
+	"github.com/devlibx/gox-base"
+	errors2 "github.com/devlibx/gox-base/errors"
+	"github.com/devlibx/gox-base/metrics"
+	goxdb "github.com/devlibx/gox-database"
 )
 
 type scyllaBatch struct {

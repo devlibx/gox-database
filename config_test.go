@@ -1,7 +1,7 @@
 package gox_database
 
 import (
-	"github.com/harishb2k/gox-base/serialization"
+	"github.com/devlibx/gox-base/serialization"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )
